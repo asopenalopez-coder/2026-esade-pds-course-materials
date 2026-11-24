@@ -45,3 +45,13 @@ The data is licensed under
 non-commercial work, you must credit Olist, and anything you share that is built on it must use
 the same licence. This repository redistributes it unchanged (minus the geolocation table) as a
 release asset, under that licence.
+
+## Map of Brazil (`geo/`)
+
+`geo/brazil-states.geojson` holds the outline of Brazil's 27 states, for the maps in Module 7.
+Each state's two-letter code (the same as `customer_state`) is in `properties.sigla`. Unlike
+`raw/`, `clean/` and `mart/`, it is part of the repository: pulling gets it.
+
+Source: `brazil-states.geojson` from the *click_that_hood* project
+(<https://github.com/codeforgermany/click_that_hood>), simplified for this course (coordinates
+rounded to 0.1°, only the code and the name kept). The project is under the MIT licence.
